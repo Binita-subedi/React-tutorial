@@ -10,11 +10,16 @@ import ClassClick from './Component/ClassClick';
 import EventBind from './Component/EventBind';
 import ParentComponent from './Component/ParentComponent';
 import UserGreeting from './Component/UserGreeting';
+import NameList from './Component/NameList';
+
+
 class App extends Component {
     render() {
     return (
       <div className="App">
-        <UserGreeting />
+
+          {/* <NameList /> */}
+        {/* <UserGreeting /> */}
         {/* <ParentComponent /> */}
        {/* <EventBind /> */}
         {/* <ClassClick /> */}

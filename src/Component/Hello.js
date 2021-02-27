@@ -1,13 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Hello = () => {
-//   return(
-//     <div>
-//     <h1> How are you </h1>
-//     </div>
-//   )
-// }
-return React.createElement ('div', {id: 'hello' , class: 'dummyClass'}, React.createElement('h1', {id: 'Test', class: 'hi'}, 'Computer Science'))
+  <p>Hi</p>
 }
+
 
 export default Hello;
